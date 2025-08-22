@@ -1,0 +1,9 @@
+google-genai
+langchain
+langchain-community
+langchain-core
+langchain-google-genai
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
