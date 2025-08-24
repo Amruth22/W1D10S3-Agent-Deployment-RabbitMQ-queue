@@ -32,9 +32,13 @@ langchain-research-agent/
 ## Key Files
 
 - **main.py**: Interactive command-line interface for the research agent
+- **fastapi_app.py**: FastAPI web API with background task processing
+- **test_fastapi.py**: Comprehensive API testing script
 - **agents/research_agent.py**: Core LangChain agent with embedded tools (web search, calculator, file operations)
-- **config.py**: API keys and configuration
+- **config.py**: Configuration management with environment variable loading
+- **.env**: Environment variables for API keys (secure configuration)
 - **memory/conversation_memory.py**: Conversation buffer memory management
+- **CONFIGURATION.md**: Comprehensive configuration guide
 
 ## Usage
 
