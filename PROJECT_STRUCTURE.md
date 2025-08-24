@@ -42,8 +42,23 @@ langchain-research-agent/
 
 ## Usage
 
+### CLI Interface
 ```bash
 python main.py
+```
+
+### FastAPI Web API
+```bash
+python fastapi_app.py
+```
+Then access:
+- **API Server**: http://localhost:8000
+- **Interactive Docs**: http://localhost:8000/docs
+- **Health Check**: http://localhost:8000/health
+
+### API Testing
+```bash
+python test_fastapi.py
 ```
 
 ## Features
