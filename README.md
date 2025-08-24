@@ -47,9 +47,20 @@ TAVILY_API_KEY=your-tavily-api-key-here
 ```
 
 ### 3. **Run the Agent**
+
+#### **CLI Interface**
 ```bash
 python main.py
 ```
+
+#### **FastAPI Web API**
+```bash
+python fastapi_app.py
+```
+Then access:
+- **API Server**: http://localhost:8000
+- **Interactive Docs**: http://localhost:8000/docs
+- **Health Check**: http://localhost:8000/health
 
 ## 💡 Example Usage
 
