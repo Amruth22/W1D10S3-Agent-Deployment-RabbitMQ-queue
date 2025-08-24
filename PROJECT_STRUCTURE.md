@@ -8,9 +8,16 @@ Professional LangChain-based AI Research Agent with Gemini 2.5 Flash integration
 ```
 langchain-research-agent/
 ├── main.py                     # Main interactive application
-├── config.py                   # Configuration settings
+├── fastapi_app.py             # FastAPI web API with background tasks
+├── test_fastapi.py            # FastAPI testing script
+├── config.py                   # Configuration settings (loads from .env)
+├── .env                        # Environment variables (API keys)
+├── .gitignore                  # Git ignore file (protects .env)
 ├── requirements.txt            # Python dependencies
+├── unit_test.py               # Unit tests
 ├── README.md                   # Project documentation
+├── FASTAPI_README.md          # FastAPI-specific documentation
+├── CONFIGURATION.md           # Configuration guide
 ├── PROJECT_STRUCTURE.md        # This file
 ├── agents/
 │   ├── __init__.py
@@ -20,9 +27,6 @@ langchain-research-agent/
 │   └── conversation_memory.py  # Memory management
 ├── data/                       # Data storage directory
 └── reports/                    # Generated research reports
-    ├── AI_Research_Fix_Test_20250816_200240.md
-    ├── AI_Research_Fix_Test_20250816_200702.md
-    └── Impact_of_AI_on_Healthcare_Industry_20250816_200935.md
 ```
 
 ## Key Files
