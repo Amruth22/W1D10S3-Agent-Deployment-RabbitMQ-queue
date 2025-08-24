@@ -274,6 +274,11 @@ langchain
 langchain-community  
 langchain-core
 langchain-google-genai
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+python-dotenv
 ```
 
 ## 📚 Learn More
