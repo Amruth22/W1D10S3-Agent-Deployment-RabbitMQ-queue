@@ -40,9 +40,10 @@ pip install -r requirements.txt
 ```
 
 ### 2. **Configuration**
-Update your Gemini API key in `config.py`:
-```python
-GEMINI_API_KEY = "your-gemini-api-key-here"
+Add your API keys to the `.env` file:
+```bash
+GEMINI_API_KEY=your-gemini-api-key-here
+TAVILY_API_KEY=your-tavily-api-key-here
 ```
 
 ### 3. **Run the Agent**
