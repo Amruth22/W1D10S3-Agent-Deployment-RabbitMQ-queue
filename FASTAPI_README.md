@@ -26,12 +26,19 @@ Client Request → FastAPI → BackgroundTask → LangChain Agent → Results
 pip install -r requirements.txt
 ```
 
-### 2. Start the API
+### 2. Configure API Keys
+Add your API keys to the `.env` file:
+```bash
+GEMINI_API_KEY=your-gemini-api-key-here
+TAVILY_API_KEY=your-tavily-api-key-here
+```
+
+### 3. Start the API
 ```bash
 python fastapi_app.py
 ```
 
-### 3. Access the API
+### 4. Access the API
 - **API Server**: http://localhost:8000
 - **Interactive Docs**: http://localhost:8000/docs
 - **Health Check**: http://localhost:8000/health
